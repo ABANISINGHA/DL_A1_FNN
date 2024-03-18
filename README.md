@@ -33,15 +33,41 @@ Then train the model by using the function model_train for different combination
 ## Hyperparameters
 
 Learning rate: 0.001, 0.0001
+
 Number of hidden layers: 3, 4, 5
+
 Number of nodes in each hidden layer: 32, 64, 128
+
 Activation function: sigmoid, relu, tanh
+
 Optimization algorithm:  SGD, Adam, RMSprop, mgd, Nadam, nestrov
+
 Batch size: 16, 32, 64
+
 Epochs: 5, 10
+
 Weight initialization: xavier, random
 
 Then find the best configuration of the hyperparameter based on the models validation accuracy.
+
+# Sweep configuration
+      
+    To run a sweep through wandb
+    sweeper(sweep_config,proj_name)
+
+sweep_config - dictionary with sweep parameters
+proj_name - project name in wandb
+
+Method: Grid and Bayes
+Metric: Validation accuracy (to be maximised)
+
+## Confusion Matrix
+
+After find the best configuration of the hyperparameter found the test accuracy of the model and plot the confusion matrix with true label and predicted label of the test data. Run the section question 7  in DL_Assignment1.ipynb.
+
+## Prediction on Mnist data set
+
+For learning based on the Fashion-mnist data set choosing three different hyperparameter configuration and predict the test accuracy of the model by using these configuarations on the Mnist data set.   
 
 
 
