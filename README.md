@@ -77,9 +77,7 @@ After find the best configuration of the hyperparameter found the test accuracy 
 
 For learning based on the Fashion-mnist data set choosing three different hyperparameter configuration and predict the test accuracy of the model by using these configuarations on the Mnist data set.
 
-Wandb project report: [link](https://wandb.ai/abanisingha1997/Report%20dl%20assign
-ment/reports/MA23M001-Abani-Singha-CS6910-Assignm
-ent-1--Vmlldzo3MTc4NTA5)
+Wandb project report: [link](https://wandb.ai/abanisingha1997/Report%20dl%20assignment/reports/MA23M001-Abani-Singha-CS6910-Assignment-1--Vmlldzo3MTc4NTA5)
 
 
 
