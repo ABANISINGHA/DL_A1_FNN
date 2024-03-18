@@ -1,7 +1,5 @@
 #CS6910 DL_Assignment_1
 
-# Abani Singha MA23M001
-
 Neural Network Model for Fashion-MNIST Classification
 
 This repository contains code for training and evaluating a neural network model for Fashion-MNIST image classification using various optimization techniques and hyperparameters tuning. The model is implemented in Python using libraries such as NumPy, Matplotlib, and Keras.
