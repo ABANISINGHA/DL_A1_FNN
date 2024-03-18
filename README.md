@@ -51,12 +51,18 @@ Then train the model by using the function model_train for different combination
 Then find the best configuration of the hyperparameter based on the models validation accuracy.
 
 # Sweep configuration
+
+ How the hyperparameter sweeps were done using WANDB: [Link](https://wandb.ai/wandb_fc/articles/reports/Introduction-to-Hyperparameter-Sweeps-A-Model-Battle-Royale-To-Find-The-Best-Model-In-3-Steps--Vmlldzo1NDQ2Nzk5)
       
       To run a sweep through wandb
-      sweeper(sweep_config, proj_name)
-
-      sweep config - dictionary with sweep parameters
+      sweep_config - dictionary with sweep parameters
       project name - project name in wandb
+      sweep_id = wandb.sweep(sweep_config, proj_name)
+      function - Make function to run model_train
+      wandb.agent(sweep_id, function,count)
+      wandb.finish()
+      
+      
 
 Method: Grid and Bayes
 
